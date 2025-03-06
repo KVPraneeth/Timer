@@ -81,4 +81,6 @@ button[name = "reset"]:active{
   background-color: grey;
   padding: 50px;
   border-radius: 15px;
+  width: 33%;
+  text-align: center;
 }
