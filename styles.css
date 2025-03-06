@@ -1,0 +1,84 @@
+* {
+  background-color: black;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 4rem;
+}
+
+.heading-1{
+  font-size: 5rem;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+button[name ="start"]{
+  background-color: green;
+  color: white;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: large;
+  box-shadow: 0 9px #8a7c7c;
+  border-radius: 15px;
+}
+button[name ="stop"]{
+  background-color: red;
+  color: white;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: large;
+  box-shadow: 0 9px #8a7c7c;
+  border-radius: 15px;
+}
+button[name ="reset"]{
+  background-color: blue;
+  color: white;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: large;
+  box-shadow: 0 9px #8a7c7c;
+  border-radius: 15px;
+}
+
+button[name="start"]:active {
+  background-color: green;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button[name = "stop"]:active{
+  background-color: red;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button[name = "reset"]:active{
+  background-color: blue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.para{
+  background-color: grey;
+  padding: 50px;
+  border-radius: 15px;
+}
